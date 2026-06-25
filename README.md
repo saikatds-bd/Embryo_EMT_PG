@@ -20,13 +20,12 @@ The scripts document the workflow used to generate the processed analyses, summa
     - Tests associations between proteoglycan/GAG gene expression and embryonic germ-layer identity.
   - 2d_Embryo_adult_sankey.R
     - Generates summaries linking embryonic expression patterns to adult cell-type expression patterns.
-3. EMT transcription-factor analyses
+3. Correlation and perturbation analyses
   - 3a_Adult_Tissue_Correlation_0.4.R
     - Performs correlation analyses between EMT transcription factors and proteoglycan/GAG genes in adult expression data.
   - 3b_Bubble_Plot_for_Correlation.R
-    - Generates bubble plots summarizing EMT transcription-factor correlations.
-  - 3c_Representative_TF_perturbation_loop.R
-    - Summarizes EMT transcription-factor perturbation datasets.
+    - Generates bubble plots summarizing EMT transcription-factor correlations.  
+The TF perturbation analyses included datasets from different sequencing platforms. Representative scripts, according to the sequencing platform, are uploaded therefore.
   - 3c_1_Representative_RNAseq_DE.R
     - Provides a representative RNA-seq differential-expression workflow.
   - 3c_2_Representative_Affymetrix_CEL_oligo_RMA_DE.R
